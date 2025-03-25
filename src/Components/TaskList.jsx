@@ -12,7 +12,7 @@ function TaskList(props){
 
   if(Tasks.length == 0){
     return(
-      <div className="bg-[#393E4f6] w-[90%] h-[60%] rounded-xl flex flex-col  items-center p-5 gap-2 overflow-auto scrollbar-hide md:h-[80%]">
+      <div className="bg-[#393E46] w-[90%] h-[60%] rounded-xl flex flex-col  items-center p-5 gap-2 overflow-auto scrollbar-hide md:h-[80%]">
         <div className="bg-[#222831] w-[90%] p-2 rounded-xl flex flex-col items-start gap-2">
               <h1 className="text-white text-3xl text-center">Please Add Some Tasks</h1>
         </div>
