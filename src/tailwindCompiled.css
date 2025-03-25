@@ -578,6 +578,11 @@ video {
   height: 100vh;
 }
 
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -618,16 +623,16 @@ video {
   gap: 0.5rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .overflow-auto {
   overflow: auto;
 }
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.border-2 {
-  border-width: 2px;
 }
 
 .bg-\[\#222831\] {
@@ -638,6 +643,10 @@ video {
 .bg-\[\#393E46\] {
   --tw-bg-opacity: 1;
   background-color: rgb(57 62 70 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#393E4f6\] {
+  background-color: #393E4f6;
 }
 
 .p-2 {
@@ -660,29 +669,19 @@ video {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .text-\[\#EEEEEE\] {
