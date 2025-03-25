@@ -13,7 +13,7 @@ function App() {
   }
 
   return (
-    <div className='bg-[#222831] h-screen w-screen flex flex-col items-center p-5 justify-around'>
+    <div className='bg-[#222831] h-screen w-screen flex flex-col items-center p-5 gap-5 justify-around'>
       <h1 className='text-[#EEEEEE] text-3xl h-[5%]'>Todo App</h1>
       <TodoAdd addTask={updateAllTasks}></TodoAdd>
       <TaskList taskList={AllTasks} toDelete={DeleteTask} ></TaskList>
