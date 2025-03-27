@@ -4,7 +4,7 @@ This is a simple Todo application built using React. It allows users to add, del
 
 ## Repository Link
 
-[React Todo App Repository](git@github.com:iamprashu/react_todo_app.git)
+[React Todo App Repository](git@github.com:iamprashu/react_todo_app/)
 
 ## Features
 
